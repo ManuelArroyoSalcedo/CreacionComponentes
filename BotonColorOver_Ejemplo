@@ -1,0 +1,7 @@
+       //Código de ejemplo para añadir el componente creado.
+       BotonColorOver bot2 = new BotonColorOver("Aceptar");
+       bot2.setBackground(Color.PINK);
+       bot2.setColorEncima(Color.orange);
+       bot2.setColorFuera(Color.PINK);
+       bot2.setBounds(5, 5, 120, 30);
+       this.getContentPane().add(bot2);
